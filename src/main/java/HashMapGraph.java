@@ -1,7 +1,7 @@
 
 import java.util.*;
 
-class Graph<T> {
+class HashMapGraph<T> {
 //creating an object of the Map class that stores the edges of the graph  
 
     private Map<T, List<T>> map = new HashMap<>();

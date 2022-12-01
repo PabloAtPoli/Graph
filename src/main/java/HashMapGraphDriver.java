@@ -1,10 +1,10 @@
 //creating a class in which we have implemented the driver code  
 
-public class GraphImplementation {
+public class HashMapGraphDriver {
 
     public static void main(String args[]) {
-        //creating an object of the Graph class  
-        Graph<Integer> graph = new Graph<Integer>();
+        //creating an object of the HashMapGraph class  
+        HashMapGraph<Integer> graph = new HashMapGraph<Integer>();
 
         //adding edges to the graph  
         graph.addNewEdge(0, 1, true);
@@ -36,7 +36,7 @@ public class GraphImplementation {
 
         System.out.println("Graph with String vertices...");
         
-        Graph<String> graphTwo = new Graph<String>();
+        HashMapGraph<String> graphTwo = new HashMapGraph<String>();
         graphTwo.addNewEdge("Bill", "Elon", true);
         graphTwo.addNewEdge("Bill", "Mark", true);
         graphTwo.addNewEdge("Bill", "Larry", false);
