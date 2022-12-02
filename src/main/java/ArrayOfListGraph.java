@@ -54,7 +54,7 @@ public class ArrayOfListGraph {
     }
     //traversal starts from the root node   
 
-    void traversalBFS(int rnode) {
+    void BFS(int rnode) {
         //creates an array of boolean type for visited node   
         //initially all nodes are unvisited  
         boolean visitednode[] = new boolean[vertices];
